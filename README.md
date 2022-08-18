@@ -57,3 +57,5 @@ Please see `/samples/PlainSample.js`
 ##### Run development code:
 
 `npm run dev` (Compiles and runs `/samples/Sample.ts`)
+
+`node dist\samples\Sample.js`

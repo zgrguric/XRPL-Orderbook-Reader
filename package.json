@@ -5,7 +5,7 @@
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "scripts": {
-    "prepublish": "npm run clean && npm run lint && npm run test && npm run build",
+    "prepublish": "npm run clean && npm run build && set DEBUG=orderbook* nodemon dist/samples/Sample.js",
     "clean": "rm -rf dist",
     "build": "tsc",
     "watch": "tsc -w",
